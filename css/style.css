@@ -51,7 +51,7 @@ a {
     color: inherit;
 }
 .slider {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(4, 0, 255);
     height: 94.7vh;
     width: 100vw;
 }
@@ -78,7 +78,7 @@ a {
         position: absolute;
         left: 0;
         width: 50vw;
-        height: 94vh;
+        height: 95vh;
         background-color: #23232e;
         flex-direction: column;
         align-items: center;
