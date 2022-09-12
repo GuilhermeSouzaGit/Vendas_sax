@@ -76,14 +76,13 @@ a {
     .menu {
         display: none;
         position: absolute;
-        top: 6vh;
         left: 0;
         width: 50vw;
         height: 94vh;
         background-color: #23232e;
         flex-direction: column;
         align-items: center;
-        justify-content: space-around;
+        justify-content: space-evenly;
         transform: translateX(-100%);
         transition: transform 0.5s ease-in;
     }
