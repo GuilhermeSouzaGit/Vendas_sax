@@ -55,7 +55,7 @@ a {
     background-color: rgb(0, 0, 0);
 }
 .container {
-    max-width: 1000px;
+    max-width: 50vw;
     margin: 0 auto;
 }
 .grid {
@@ -88,10 +88,52 @@ a {
 .sax-tenor .grid > div:first-child {
     order: 2;
 }
+@media (max-width: 1360px) {
+    .container {
+        max-width: 50vw;
+        margin: 0 auto;
+    }
+    .grid h1 {
+        font-size: 40px;
+    }
+    .grid p {
+        font-size: 18px;
+    }
+    .alto {
+        width: 40%;
+    }
+    .tenor {
+        width: 55%;
+    }
+    .soprano {
+        width: 14%;
+        margin-left: 200px;
+    }
+}
 @media (max-width: 1100px) {
     .menu {
         display: flex;
         gap: 90px;
+    }
+    .container {
+        max-width: 50vw;
+        margin: 0 auto;
+    }
+    .grid h1 {
+        font-size: 30px;
+    }
+    .grid p {
+        font-size: 14px;
+    }
+    .alto {
+        width: 30%;
+    }
+    .tenor {
+        width: 40%;
+    }
+    .soprano {
+        width: 12%;
+        margin-left: 150px;
     }
 }
 @media (max-width: 900px) {
@@ -141,5 +183,25 @@ a {
     }
     .mobile-menu.active .line3 {
         transform: rotate(45deg) translate(-5px, -7px);
+    }
+    .container {
+        max-width: 70vw;
+        margin: 0 auto;
+    }
+    .grid h1 {
+        font-size: 20px;
+    }
+    .grid p {
+        font-size: 10px;
+    }
+    .alto {
+        width: 60%;
+    }
+    .tenor {
+        width: 60%;
+    }
+    .soprano {
+        width: 20%;
+        margin-left: 50px;
     }
 }
