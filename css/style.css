@@ -205,3 +205,20 @@ a {
         margin-left: 50px;
     }
 }
+@media (max-width: 400px) {
+    .grid h1 {
+        font-size: 10px;
+    }
+    .grid p {
+        font-size: 5px;
+    }
+    .alto {
+        width: 35%;
+    }
+    .tenor {
+        width: 40%;
+    }
+    .soprano {
+        width: 13%;
+    }
+}
