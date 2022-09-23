@@ -196,14 +196,14 @@ a {
     /* .container {
         max-width: 70vw;
         margin: 0 auto;
-    }
+    }*/
     .grid h1 {
-        font-size: 20px;
+        font-size: 40px;
     }
     .grid p {
-        font-size: 10px;
+        font-size: 25px;
     }
-    .alto {
+    /*.alto {
         width: 60%;
     }
     .tenor {
