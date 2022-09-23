@@ -184,7 +184,16 @@ a {
     .mobile-menu.active .line3 {
         transform: rotate(45deg) translate(-5px, -7px);
     }
-    .container {
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+    }
+    .sax-tenor .grid > div:first-child {
+        order: 0;
+    }
+    
+    /* .container {
         max-width: 70vw;
         margin: 0 auto;
     }
@@ -203,7 +212,7 @@ a {
     .soprano {
         width: 20%;
         margin-left: 50px;
-    }
+    } */
 }
 @media (max-width: 400px) {
     .grid h1 {
