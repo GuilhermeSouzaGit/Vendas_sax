@@ -203,10 +203,10 @@ a {
     .grid p {
         font-size: 25px;
     }
-    /*.alto {
-        width: 60%;
+    .alto {
+        width: 50%;
     }
-    .tenor {
+    /*.tenor {
         width: 60%;
     }
     .soprano {
