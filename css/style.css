@@ -7,7 +7,7 @@
     color: white;
     font-size: 0.75em;
     text-align: center;
-    background-color: red;
+    background-color: rgb(0, 0, 0);
     height: 2vh;
     display: flex;
     justify-content: center;
@@ -63,6 +63,9 @@ a {
     grid-template-columns: 1fr 1fr;
     align-items: center;
     
+}
+.section:not(:last-child) {
+    border-bottom: 6px solid #23232e;
 }
 .grid h1 {
     font-size: 65px;
